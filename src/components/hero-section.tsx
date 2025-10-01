@@ -46,7 +46,7 @@ export function HeroSection() {
 
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden bg-primary/10">
-              <img src="/modern-medical-lab.png" alt="Laboratorio moderno" className="w-full h-full object-cover" />
+              <img src="/modern-medical-lab.png" alt="Personal" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
