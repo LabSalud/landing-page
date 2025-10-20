@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">LabSalud</h3>
+            <h3 className="font-bold text-lg mb-4">Labsalud</h3>
             <p className="text-white/80 text-sm">
               Laboratorio bioquímico en Leones, Córdoba. Análisis clínicos con tecnología de vanguardia y atención
               personalizada.

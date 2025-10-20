@@ -7,7 +7,7 @@ export function AboutSection() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-balance">Sobre LabSalud</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-balance">Sobre Labsalud</h2>
             <p className="text-base sm:text-lg text-muted-foreground text-pretty">
               Ubicados en la Clínica Más Salud de Leones, Córdoba, somos un laboratorio bioquímico comprometido con la
               excelencia en el diagnóstico clínico.
