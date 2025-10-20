@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">Lab Salud</h3>
+            <h3 className="font-bold text-lg mb-4">LabSalud</h3>
             <p className="text-white/80 text-sm">
               Laboratorio bioquímico en Leones, Córdoba. Análisis clínicos con tecnología de vanguardia y atención
               personalizada.
@@ -18,7 +18,7 @@ export function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2">
                 <MessageCircle className="w-4 h-4" />
-                <span>3472582866</span>
+                <span>+54 3472582866</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
@@ -43,7 +43,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-sm text-white/80">
-          <p>&copy; {new Date().getFullYear()} Lab Salud. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} LabSalud. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

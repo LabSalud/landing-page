@@ -22,9 +22,6 @@ export function Header() {
             <a href="#nosotros" className="text-sm font-medium text-gray-700 hover:text-[#204983] transition-colors">
               Nosotros
             </a>
-            <a href="#noticias" className="text-sm font-medium text-gray-700 hover:text-[#204983] transition-colors">
-              Noticias
-            </a>
             <a href="#contacto" className="text-sm font-medium text-gray-700 hover:text-[#204983] transition-colors">
               Contacto
             </a>
@@ -77,13 +74,6 @@ export function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Nosotros
-              </a>
-              <a
-                href="#noticias"
-                className="text-sm font-medium text-gray-700 hover:text-[#204983] transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Noticias
               </a>
               <a
                 href="#contacto"
