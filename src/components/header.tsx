@@ -37,7 +37,7 @@ export function Header() {
           {/* Center section - Logo (always centered) */}
           <div className="flex justify-center">
             <a href="#inicio" className="flex items-center">
-              <img src="/logo.png" alt="Lab Salud Logo" className="h-12 lg:h-16 w-auto object-contain" />
+              <img src="/logo_icono.svg" alt="Lab Salud Logo" className="h-12 lg:h-10 w-auto object-contain" />
             </a>
           </div>
 
