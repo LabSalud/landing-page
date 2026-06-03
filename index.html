@@ -1,45 +1,171 @@
 <!doctype html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- Favicons optimizados para Google Search -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <!-- Google Site Verification - opcional pero recomendado -->
-    <meta name="google-site-verification" content="tu-código-de-verificación" />
-    <!-- Schema.org markup para mejorar la indexación -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Labsalud",
-      "url": "https://labsalud.com.ar",
-      "logo": "https://labsalud.com.ar/favicon-96.png",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Av del Libertador 1595",
-        "addressLocality": "Leones",
-        "addressRegion": "Córdoba",
-        "addressCountry": "AR"
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Labsalud · Laboratorio Bioquímico en Leones, Córdoba · Análisis Clínicos</title>
+  <meta name="description" content="Labsalud — Laboratorio bioquímico en Leones, Córdoba. Análisis clínicos rápidos y confiables con tecnología de última generación. Atendemos las principales Obras Sociales y prepagas." />
+  <meta name="keywords" content="laboratorio bioquímico, análisis clínicos, Leones, Córdoba, laboratorio de análisis, extracción de sangre, hemograma, perfil lipídico, hormonas, bioquímica clínica, Clínica Más Salud, Labsalud, obras sociales Leones, APROSS, PAMI, OSDE, SanCor Salud, Swiss Medical, Avalian, Nobis Salud, Ampara Salud, Federada Salud, Jerárquicos Salud, OSPEDyC, Prevención Salud" />
+  <meta name="author" content="Labsalud" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta name="geo.region" content="AR-X" />
+  <meta name="geo.placename" content="Leones, Córdoba" />
+  <meta name="geo.position" content="-32.6478;-62.2961" />
+  <meta name="ICBM" content="-32.6478, -62.2961" />
+  <link rel="canonical" href="https://labsalud.com.ar/" />
+  <meta name="theme-color" content="#204983" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:site_name" content="Labsalud" />
+  <meta property="og:title" content="Labsalud · Laboratorio Bioquímico en Leones, Córdoba" />
+  <meta property="og:description" content="Análisis clínicos rápidos y confiables. Tecnología de última generación. Atendemos las principales Obras Sociales y prepagas." />
+  <meta property="og:url" content="https://labsalud.com.ar/" />
+  <meta property="og:image" content="https://labsalud.com.ar/assets/clinica.png" />
+  <meta property="og:image:alt" content="Clínica Más Salud — sede de Labsalud, Leones, Córdoba" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Labsalud · Laboratorio Bioquímico en Leones, Córdoba" />
+  <meta name="twitter:description" content="Análisis clínicos rápidos y confiables. Atendemos las principales Obras Sociales." />
+  <meta name="twitter:image" content="https://labsalud.com.ar/assets/clinica.png" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+
+  <!-- Schema.org JSON-LD: MedicalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["MedicalBusiness", "MedicalClinic", "LocalBusiness"],
+    "name": "Labsalud",
+    "alternateName": "Lab Salud",
+    "description": "Laboratorio bioquímico en Leones, Córdoba. Análisis clínicos rápidos y confiables con tecnología de última generación.",
+    "url": "https://labsalud.com.ar",
+    "logo": "https://labsalud.com.ar/assets/favicon-96.png",
+    "image": "https://labsalud.com.ar/assets/clinica.png",
+    "telephone": "+54-3472-582866",
+    "email": "labsalud.leones@gmail.com",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. del Libertador 1595",
+      "addressLocality": "Leones",
+      "addressRegion": "Córdoba",
+      "postalCode": "2594",
+      "addressCountry": "AR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -32.6478,
+      "longitude": -62.2961
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Leones" },
+      { "@type": "City", "name": "Marcos Juárez" },
+      { "@type": "City", "name": "Bell Ville" },
+      { "@type": "AdministrativeArea", "name": "Córdoba, Argentina" }
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "07:30",
+        "closes": "10:30",
+        "name": "Extracción de muestras"
       },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+543472582866",
-        "contactType": "customer service",
-        "email": "labsalud.leones@gmail.com"
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "07:30",
+        "closes": "14:30",
+        "name": "Secretaría"
       }
-    }
-    </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Labsalud - Laboratorio Bioquímico en Leones, Córdoba. Análisis clínicos rápidos y confiables con tecnología de última generación." />
-    <title>Labsalud - Laboratorio Bioquímico | Leones, Córdoba</title>
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://labsalud.com.ar" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    ],
+    "medicalSpecialty": ["ClinicalLaboratory", "ClinicalPathology"],
+    "availableService": [
+      { "@type": "MedicalTest", "name": "Hematología" },
+      { "@type": "MedicalTest", "name": "Bioquímica Clínica" },
+      { "@type": "MedicalTest", "name": "Perfil Lipídico" },
+      { "@type": "MedicalTest", "name": "Hormonas" },
+      { "@type": "MedicalTest", "name": "Toxicología" },
+      { "@type": "MedicalTest", "name": "Análisis Generales / Chequeos" }
+    ],
+    "contactPoint": {
+
+      "@type": "ContactPoint",
+      "telephone": "+54-3472-582866",
+      "contactType": "customer service",
+      "email": "labsalud.leones@gmail.com",
+      "areaServed": "AR",
+      "availableLanguage": ["Spanish"]
+    },
+    "sameAs": ["https://wa.me/543472582866"]
+  }
+  </script>
+
+  <!-- Schema.org JSON-LD: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué obras sociales atiende Labsalud?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Atendemos las principales obras sociales y prepagas, entre ellas APROSS, PAMI, OSDE, Swiss Medical, SanCor Salud, Federada Salud, Jerárquicos Salud, Avalian, Nobis Salud, Ampara Salud, Prevención Salud, OSPEDyC, Asociart ART, La Segunda ART, Andina ART, Serena ART, Prevención ART, Caja de Abogados, Caja Notarial, CPCE, OSPIL, OSSEG, OSFATLyF, Gráficos, Servired, LyFCBA, Medicar, El Norte, OSPLYF, OSPTV, SANOS Salud, SCIS y más. Si tu obra social no figura, consultanos por WhatsApp."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuál es el horario de extracción?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Realizamos extracción de muestras de lunes a viernes de 7:30 a 10:30 hs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Dónde está ubicado el laboratorio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Labsalud funciona dentro de la Clínica Más Salud, en Av. del Libertador 1595, Leones, Córdoba."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Necesito turno previo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La atención es por orden de llegada dentro del horario de extracción. Para estudios especiales o consultas, escribinos por WhatsApp al +54 3472 582866."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo recibo los resultados de mis análisis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Enviamos los resultados por WhatsApp o por email, según tu preferencia. También podés retirarlos físicamente en el laboratorio dentro del horario de atención de secretaría (lunes a viernes 7:30 a 14:30 hs)."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
