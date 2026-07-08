@@ -44,7 +44,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex justify-center">
             <a href="#inicio" className="flex items-center" aria-label="Labsalud — Inicio">
-              <img src="/assets/logo.svg" alt="Labsalud — Laboratorio Bioquímico" className="h-9 lg:h-10 w-auto object-contain" />
+              <img src="/assets/logo_icono.svg" alt="Labsalud — Laboratorio Bioquímico" className="h-9 lg:h-10 w-auto object-contain" />
             </a>
           </div>
 
