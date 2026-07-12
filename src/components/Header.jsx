@@ -11,13 +11,10 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-3 items-center h-16 lg:h-20">
 
-          {/* Desktop nav */}
-          <nav className="hidden lg:flex items-center gap-7 justify-start" aria-label="Navegación principal">
-            <a href="#inicio" className="text-sm font-medium text-gray-700 hover:text-lab transition-colors">Inicio</a>
+          {/* Desktop nav — izquierda */}
+          <nav className="hidden lg:flex items-center gap-7 justify-center" aria-label="Navegación principal izquierda">
             <a href="#servicios" className="text-sm font-medium text-gray-700 hover:text-lab transition-colors">Servicios</a>
             <a href="#obras-sociales" className="text-sm font-medium text-gray-700 hover:text-lab transition-colors">Coberturas</a>
-            <a href="#nosotros" className="text-sm font-medium text-gray-700 hover:text-lab transition-colors">Nosotros</a>
-            <a href="#contacto" className="text-sm font-medium text-gray-700 hover:text-lab transition-colors">Contacto</a>
           </nav>
 
           {/* Mobile menu button */}
@@ -48,8 +45,13 @@ export default function Header() {
             </a>
           </div>
 
-          {/* Spacer derecho — mantiene el logo centrado */}
-          <div aria-hidden="true" />
+          {/* Desktop nav — derecha (div siempre en el grid para mantener logo centrado) */}
+          <div className="flex justify-center">
+            <nav className="hidden lg:flex items-center gap-7" aria-label="Navegación principal derecha">
+              <a href="#nosotros" className="text-sm font-medium text-gray-700 hover:text-lab transition-colors">Nosotros</a>
+              <a href="#contacto" className="text-sm font-medium text-gray-700 hover:text-lab transition-colors">Contacto</a>
+            </nav>
+          </div>
         </div>
 
         {/* Mobile menu */}
