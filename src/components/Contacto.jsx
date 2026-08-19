@@ -38,7 +38,7 @@ export default function Contacto() {
               </div>
               <div className="pt-1">
                 <p className="font-medium text-gray-900">Atención de secretaría</p>
-                <p className="text-gray-600">Lunes a Viernes: 7:30 – 14:30 hs</p>
+                <p className="text-gray-600">Lunes a Viernes: 7:30 – 13:30 hs</p>
               </div>
             </div>
           </article>

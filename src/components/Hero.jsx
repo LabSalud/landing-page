@@ -24,7 +24,7 @@ export default function Hero() {
                 <div>
                   <p className="font-medium text-gray-900">Horarios de atención</p>
                   <p className="text-sm text-gray-600">Extracción: Lunes a Viernes 7:30 – 10:30 hs</p>
-                  <p className="text-sm text-gray-600">Secretaría: Lunes a Viernes 7:30 – 14:30 hs</p>
+                  <p className="text-sm text-gray-600">Secretaría: Lunes a Viernes 7:30 – 13:30 hs</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
