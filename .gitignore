@@ -1,3 +1,8 @@
 node_modules
 dist
 .DS_Store
+
+# graphify: versionamos el grafo, no el caché ni las rutas locales
+graphify-out/cache/
+graphify-out/.graphify_*
+graphify-out/manifest.json

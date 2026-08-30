@@ -1,0 +1,1486 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "labsalud_local_seo_stack",
+        "label": "Local SEO / Rich Results Stack for Labsalud",
+        "nodes": [
+          "landing_page_index_seo_metadata",
+          "landing_page_index_open_graph_twitter_cards",
+          "landing_page_index_geo_targeting",
+          "landing_page_index_jsonld_medicalbusiness",
+          "landing_page_index_jsonld_faqpage"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "/Users/givecab/labsalud/landing-page/index.html"
+      },
+      {
+        "id": "labsalud_patient_journey_facts",
+        "label": "Patient-Facing Service Facts (ubicaci\u00f3n, horarios, cobertura, contacto)",
+        "nodes": [
+          "landing_page_index_clinica_mas_salud",
+          "landing_page_index_opening_hours",
+          "landing_page_index_obras_sociales_coverage",
+          "landing_page_index_whatsapp_contact_channel",
+          "landing_page_index_available_medical_tests"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "/Users/givecab/labsalud/landing-page/index.html"
+      },
+      {
+        "id": "landing_page_vite_react_toolchain",
+        "label": "Vite + React Toolchain Decisions",
+        "nodes": [
+          "landing_page_readme_vite_react_ts_template",
+          "landing_page_readme_vitejs_plugin_react",
+          "landing_page_readme_vitejs_plugin_react_swc",
+          "landing_page_readme_react_compiler",
+          "landing_page_readme_type_aware_eslint",
+          "landing_page_readme_eslint_plugin_react_x"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "/Users/givecab/labsalud/landing-page/README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 1,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 1,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_private",
+      "community": 1,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 1,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_type",
+      "community": 1,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 5,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 5,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_build",
+      "community": 5,
+      "norm_label": "build"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts_preview",
+      "community": 5,
+      "norm_label": "preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 1,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_dependencies_react",
+      "community": 1,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_dependencies_react_dom",
+      "community": 1,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 1,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_devdependencies_vitejs_plugin_react",
+      "community": 1,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "package_devdependencies_vite",
+      "community": 1,
+      "norm_label": "vite"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 3,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 9,
+      "norm_label": "app()"
+    },
+    {
+      "label": "Contacto.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Contacto.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_contacto",
+      "community": 3,
+      "norm_label": "contacto.jsx"
+    },
+    {
+      "label": "Contacto()",
+      "file_type": "code",
+      "source_file": "src/components/Contacto.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_contacto_contacto",
+      "community": 3,
+      "norm_label": "contacto()"
+    },
+    {
+      "label": "Footer.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_footer",
+      "community": 3,
+      "norm_label": "footer.jsx"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_footer_footer",
+      "community": 3,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "Header.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Header.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_header",
+      "community": 3,
+      "norm_label": "header.jsx"
+    },
+    {
+      "label": "Header()",
+      "file_type": "code",
+      "source_file": "src/components/Header.jsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "components_header_header",
+      "community": 3,
+      "norm_label": "header()"
+    },
+    {
+      "label": "Hero.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_hero",
+      "community": 7,
+      "norm_label": "hero.jsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_hero_hero",
+      "community": 7,
+      "norm_label": "hero()"
+    },
+    {
+      "label": "Nosotros.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Nosotros.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_nosotros",
+      "community": 8,
+      "norm_label": "nosotros.jsx"
+    },
+    {
+      "label": "Nosotros()",
+      "file_type": "code",
+      "source_file": "src/components/Nosotros.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_nosotros_nosotros",
+      "community": 8,
+      "norm_label": "nosotros()"
+    },
+    {
+      "label": "ObrasSociales.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ObrasSociales.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_obrassociales",
+      "community": 4,
+      "norm_label": "obrassociales.jsx"
+    },
+    {
+      "label": "ExternalIcon()",
+      "file_type": "code",
+      "source_file": "src/components/ObrasSociales.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_obrassociales_externalicon",
+      "community": 4,
+      "norm_label": "externalicon()"
+    },
+    {
+      "label": "coverages",
+      "file_type": "code",
+      "source_file": "src/components/ObrasSociales.jsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "components_obrassociales_coverages",
+      "community": 4,
+      "norm_label": "coverages"
+    },
+    {
+      "label": "ObrasSociales()",
+      "file_type": "code",
+      "source_file": "src/components/ObrasSociales.jsx",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "components_obrassociales_obrassociales",
+      "community": 4,
+      "norm_label": "obrassociales()"
+    },
+    {
+      "label": "Servicios.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Servicios.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_servicios",
+      "community": 6,
+      "norm_label": "servicios.jsx"
+    },
+    {
+      "label": "services",
+      "file_type": "code",
+      "source_file": "src/components/Servicios.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_servicios_services",
+      "community": 6,
+      "norm_label": "services"
+    },
+    {
+      "label": "Servicios()",
+      "file_type": "code",
+      "source_file": "src/components/Servicios.jsx",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "components_servicios_servicios",
+      "community": 6,
+      "norm_label": "servicios()"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main",
+      "community": 9,
+      "norm_label": "main.jsx"
+    },
+    {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "vite_config",
+      "community": 10,
+      "norm_label": "vite.config.ts"
+    },
+    {
+      "label": "React + TypeScript + Vite Template",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1-L3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_readme_vite_react_ts_template",
+      "community": 2,
+      "norm_label": "react + typescript + vite template"
+    },
+    {
+      "label": "@vitejs/plugin-react (Babel Fast Refresh)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "source_url": "https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_readme_vitejs_plugin_react",
+      "community": 2,
+      "norm_label": "@vitejs/plugin-react (babel fast refresh)"
+    },
+    {
+      "label": "@vitejs/plugin-react-swc (SWC Fast Refresh)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "source_url": "https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_readme_vitejs_plugin_react_swc",
+      "community": 2,
+      "norm_label": "@vitejs/plugin-react-swc (swc fast refresh)"
+    },
+    {
+      "label": "React Compiler / SWC Incompatibility",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": "L10-L12",
+      "source_url": "https://github.com/vitejs/vite-plugin-react/issues/428",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_readme_react_compiler",
+      "community": 2,
+      "norm_label": "react compiler / swc incompatibility"
+    },
+    {
+      "label": "Type-Aware ESLint Configuration",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": "L14-L44",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_readme_type_aware_eslint",
+      "community": 2,
+      "norm_label": "type-aware eslint configuration"
+    },
+    {
+      "label": "eslint-plugin-react-x / eslint-plugin-react-dom",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L46-L73",
+      "source_url": "https://github.com/Rel1cx/eslint-react",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_readme_eslint_plugin_react_x",
+      "community": 2,
+      "norm_label": "eslint-plugin-react-x / eslint-plugin-react-dom"
+    },
+    {
+      "label": "Labsalud Landing HTML Shell (index.html)",
+      "file_type": "code",
+      "source_file": "index.html",
+      "source_location": "L1-L172",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Labsalud",
+      "contributor": null,
+      "id": "landing_page_index_html_shell",
+      "community": 2,
+      "norm_label": "labsalud landing html shell (index.html)"
+    },
+    {
+      "label": "React Root Mount Point (#root + /src/main.jsx)",
+      "file_type": "code",
+      "source_file": "index.html",
+      "source_location": "L169-L170",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_react_root_mount",
+      "community": 2,
+      "norm_label": "react root mount point (#root + /src/main.jsx)"
+    },
+    {
+      "label": "Primary SEO Metadata Block",
+      "file_type": "concept",
+      "source_file": "index.html",
+      "source_location": "L7-L18",
+      "source_url": "https://labsalud.com.ar/",
+      "captured_at": null,
+      "author": "Labsalud",
+      "contributor": null,
+      "id": "landing_page_index_seo_metadata",
+      "community": 0,
+      "norm_label": "primary seo metadata block"
+    },
+    {
+      "label": "Open Graph and Twitter Card Metadata",
+      "file_type": "concept",
+      "source_file": "index.html",
+      "source_location": "L20-L34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_open_graph_twitter_cards",
+      "community": 0,
+      "norm_label": "open graph and twitter card metadata"
+    },
+    {
+      "label": "Local Geo Targeting (Leones, C\u00f3rdoba AR-X)",
+      "file_type": "rationale",
+      "source_file": "index.html",
+      "source_location": "L13-L16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_geo_targeting",
+      "community": 0,
+      "norm_label": "local geo targeting (leones, cordoba ar-x)"
+    },
+    {
+      "label": "Multi-Format Favicon Strategy",
+      "file_type": "rationale",
+      "source_file": "index.html",
+      "source_location": "L36-L41",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_favicon_strategy",
+      "community": 0,
+      "norm_label": "multi-format favicon strategy"
+    },
+    {
+      "label": "JSON-LD MedicalBusiness Schema",
+      "file_type": "code",
+      "source_file": "index.html",
+      "source_location": "L43-L112",
+      "source_url": "https://schema.org",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_jsonld_medicalbusiness",
+      "community": 0,
+      "norm_label": "json-ld medicalbusiness schema"
+    },
+    {
+      "label": "JSON-LD FAQPage Schema",
+      "file_type": "code",
+      "source_file": "index.html",
+      "source_location": "L114-L162",
+      "source_url": "https://schema.org",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_jsonld_faqpage",
+      "community": 0,
+      "norm_label": "json-ld faqpage schema"
+    },
+    {
+      "label": "Labsalud \u2014 Laboratorio Bioqu\u00edmico",
+      "file_type": "concept",
+      "source_file": "index.html",
+      "source_location": "L48-L64",
+      "source_url": "https://labsalud.com.ar",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_labsalud_business",
+      "community": 0,
+      "norm_label": "labsalud \u2014 laboratorio bioquimico"
+    },
+    {
+      "label": "Cl\u00ednica M\u00e1s Salud (Av. del Libertador 1595, Leones)",
+      "file_type": "concept",
+      "source_file": "index.html",
+      "source_location": "L57-L64",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_clinica_mas_salud",
+      "community": 0,
+      "norm_label": "clinica mas salud (av. del libertador 1595, leones)"
+    },
+    {
+      "label": "Horarios: Extracci\u00f3n 7:30-10:30 / Secretar\u00eda 7:30-13:30",
+      "file_type": "concept",
+      "source_file": "index.html",
+      "source_location": "L76-L91",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_opening_hours",
+      "community": 0,
+      "norm_label": "horarios: extraccion 7:30-10:30 / secretaria 7:30-13:30"
+    },
+    {
+      "label": "Cat\u00e1logo de Estudios (Hematolog\u00eda, Bioqu\u00edmica, Hormonas, Toxicolog\u00eda)",
+      "file_type": "concept",
+      "source_file": "index.html",
+      "source_location": "L93-L100",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_available_medical_tests",
+      "community": 0,
+      "norm_label": "catalogo de estudios (hematologia, bioquimica, hormonas, toxicologia)"
+    },
+    {
+      "label": "Cobertura de Obras Sociales y Prepagas",
+      "file_type": "concept",
+      "source_file": "index.html",
+      "source_location": "L120-L127",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_obras_sociales_coverage",
+      "community": 0,
+      "norm_label": "cobertura de obras sociales y prepagas"
+    },
+    {
+      "label": "Canal de Contacto WhatsApp (+54 3472 582866)",
+      "file_type": "concept",
+      "source_file": "index.html",
+      "source_location": "L101-L110",
+      "source_url": "https://wa.me/543472582866",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_whatsapp_contact_channel",
+      "community": 0,
+      "norm_label": "canal de contacto whatsapp (+54 3472 582866)"
+    },
+    {
+      "label": "Google Fonts Preconnect + Inter Stylesheet",
+      "file_type": "rationale",
+      "source_file": "index.html",
+      "source_location": "L164-L166",
+      "source_url": "https://fonts.googleapis.com",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "landing_page_index_google_fonts_preconnect",
+      "community": 2,
+      "norm_label": "google fonts preconnect + inter stylesheet"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_contacto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_contacto_contacto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_header_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_nosotros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_nosotros_nosotros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_obrassociales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_obrassociales_obrassociales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_servicios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_servicios_servicios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contacto.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_contacto",
+      "target": "components_contacto_contacto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_footer",
+      "target": "components_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_header",
+      "target": "components_header_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_hero",
+      "target": "components_hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nosotros.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_nosotros",
+      "target": "components_nosotros_nosotros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ObrasSociales.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "components_obrassociales",
+      "target": "components_obrassociales_coverages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ObrasSociales.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_obrassociales",
+      "target": "components_obrassociales_externalicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ObrasSociales.jsx",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "components_obrassociales",
+      "target": "components_obrassociales_obrassociales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Servicios.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_servicios",
+      "target": "components_servicios_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Servicios.jsx",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "components_servicios",
+      "target": "components_servicios_servicios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "landing_page_index_html_shell",
+      "target": "landing_page_readme_vite_react_ts_template"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "index.html",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "landing_page_index_react_root_mount",
+      "target": "landing_page_readme_vite_react_ts_template"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L14-L44",
+      "weight": 1.0,
+      "source": "landing_page_readme_type_aware_eslint",
+      "target": "landing_page_readme_vite_react_ts_template"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "landing_page_readme_vite_react_ts_template",
+      "target": "landing_page_readme_vitejs_plugin_react"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "landing_page_readme_vite_react_ts_template",
+      "target": "landing_page_readme_vitejs_plugin_react_swc"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "L10-L12",
+      "weight": 1.0,
+      "source": "landing_page_readme_react_compiler",
+      "target": "landing_page_readme_vitejs_plugin_react"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "README.md",
+      "source_location": "L7-L8",
+      "weight": 1.0,
+      "source": "landing_page_readme_vitejs_plugin_react",
+      "target": "landing_page_readme_vitejs_plugin_react_swc"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L10-L12",
+      "weight": 1.0,
+      "source": "landing_page_readme_react_compiler",
+      "target": "landing_page_readme_vitejs_plugin_react_swc"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L46-L73",
+      "weight": 1.0,
+      "source": "landing_page_readme_eslint_plugin_react_x",
+      "target": "landing_page_readme_type_aware_eslint"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": "README.md",
+      "source_location": "L22, L170",
+      "weight": 1.0,
+      "source": "landing_page_readme_type_aware_eslint",
+      "target": "landing_page_index_react_root_mount"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L164-L166",
+      "weight": 1.0,
+      "source": "landing_page_index_html_shell",
+      "target": "landing_page_index_google_fonts_preconnect"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L36-L41",
+      "weight": 1.0,
+      "source": "landing_page_index_html_shell",
+      "target": "landing_page_index_favicon_strategy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L114-L162",
+      "weight": 1.0,
+      "source": "landing_page_index_html_shell",
+      "target": "landing_page_index_jsonld_faqpage"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L43-L112",
+      "weight": 1.0,
+      "source": "landing_page_index_html_shell",
+      "target": "landing_page_index_jsonld_medicalbusiness"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L169-L170",
+      "weight": 1.0,
+      "source": "landing_page_index_html_shell",
+      "target": "landing_page_index_react_root_mount"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L7-L18",
+      "weight": 1.0,
+      "source": "landing_page_index_html_shell",
+      "target": "landing_page_index_seo_metadata"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "index.html",
+      "source_location": "L10, L93-L100",
+      "weight": 1.0,
+      "source": "landing_page_index_seo_metadata",
+      "target": "landing_page_index_available_medical_tests"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L13-L16",
+      "weight": 1.0,
+      "source": "landing_page_index_seo_metadata",
+      "target": "landing_page_index_geo_targeting"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "index.html",
+      "source_location": "L10, L125",
+      "weight": 1.0,
+      "source": "landing_page_index_seo_metadata",
+      "target": "landing_page_index_obras_sociales_coverage"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "index.html",
+      "source_location": "L7-L34",
+      "weight": 1.0,
+      "source": "landing_page_index_seo_metadata",
+      "target": "landing_page_index_open_graph_twitter_cards"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "index.html",
+      "source_location": "L27-L41",
+      "weight": 1.0,
+      "source": "landing_page_index_favicon_strategy",
+      "target": "landing_page_index_open_graph_twitter_cards"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L23-L28",
+      "weight": 1.0,
+      "source": "landing_page_index_open_graph_twitter_cards",
+      "target": "landing_page_index_labsalud_business"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "index.html",
+      "source_location": "L15-L16, L65-L69",
+      "weight": 1.0,
+      "source": "landing_page_index_geo_targeting",
+      "target": "landing_page_index_jsonld_medicalbusiness"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L93-L100",
+      "weight": 1.0,
+      "source": "landing_page_index_jsonld_medicalbusiness",
+      "target": "landing_page_index_available_medical_tests"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L48-L64",
+      "weight": 1.0,
+      "source": "landing_page_index_jsonld_medicalbusiness",
+      "target": "landing_page_index_labsalud_business"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L76-L91",
+      "weight": 1.0,
+      "source": "landing_page_index_jsonld_medicalbusiness",
+      "target": "landing_page_index_opening_hours"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L101-L110",
+      "weight": 1.0,
+      "source": "landing_page_index_jsonld_medicalbusiness",
+      "target": "landing_page_index_whatsapp_contact_channel"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L136-L143",
+      "weight": 1.0,
+      "source": "landing_page_index_jsonld_faqpage",
+      "target": "landing_page_index_clinica_mas_salud"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L120-L127",
+      "weight": 1.0,
+      "source": "landing_page_index_jsonld_faqpage",
+      "target": "landing_page_index_obras_sociales_coverage"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L128-L159",
+      "weight": 1.0,
+      "source": "landing_page_index_jsonld_faqpage",
+      "target": "landing_page_index_opening_hours"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L144-L159",
+      "weight": 1.0,
+      "source": "landing_page_index_jsonld_faqpage",
+      "target": "landing_page_index_whatsapp_contact_channel"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "landing_page_index_labsalud_business",
+      "target": "landing_page_index_clinica_mas_salud"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "labsalud_local_seo_stack",
+      "label": "Local SEO / Rich Results Stack for Labsalud",
+      "nodes": [
+        "landing_page_index_seo_metadata",
+        "landing_page_index_open_graph_twitter_cards",
+        "landing_page_index_geo_targeting",
+        "landing_page_index_jsonld_medicalbusiness",
+        "landing_page_index_jsonld_faqpage"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/givecab/labsalud/landing-page/index.html"
+    },
+    {
+      "id": "labsalud_patient_journey_facts",
+      "label": "Patient-Facing Service Facts (ubicaci\u00f3n, horarios, cobertura, contacto)",
+      "nodes": [
+        "landing_page_index_clinica_mas_salud",
+        "landing_page_index_opening_hours",
+        "landing_page_index_obras_sociales_coverage",
+        "landing_page_index_whatsapp_contact_channel",
+        "landing_page_index_available_medical_tests"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/givecab/labsalud/landing-page/index.html"
+    },
+    {
+      "id": "landing_page_vite_react_toolchain",
+      "label": "Vite + React Toolchain Decisions",
+      "nodes": [
+        "landing_page_readme_vite_react_ts_template",
+        "landing_page_readme_vitejs_plugin_react",
+        "landing_page_readme_vitejs_plugin_react_swc",
+        "landing_page_readme_react_compiler",
+        "landing_page_readme_type_aware_eslint",
+        "landing_page_readme_eslint_plugin_react_x"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/givecab/labsalud/landing-page/README.md"
+    }
+  ],
+  "built_at_commit": "780f307eb8c4e1e3b5051d23baae5f16a61c04c7"
+}
